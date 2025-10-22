@@ -1,2 +1,3 @@
-spring-app/.idea
-.gradle
+*/.idea
+*/.gradle
+*/build

@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class AuthorController {
 
   @PostMapping("/add")
-  public ResponseEntity<Author> addBook(@RequestBody Author author) {
+  public ResponseEntity<Author> addAuthor(@RequestBody Author author) {
     //TODO: use the AuthorRepository here to add this book to the database!
     return ResponseEntity.ok().body(author);
   }
