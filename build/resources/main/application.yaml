@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: spring-boot-fundamentals
+  h2:
+    console:
+      enabled: true
+  flyway:
+    enabled: true
