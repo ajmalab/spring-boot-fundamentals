@@ -1,0 +1,6 @@
+CREATE TABLE users (
+    user_id VARCHAR(255) PRIMARY KEY,
+    flagged BOOLEAN DEFAULT FALSE,
+    flag_reason TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
